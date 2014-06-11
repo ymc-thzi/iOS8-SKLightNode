@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2732D44119405AFC007B51DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2732D44019405AFC007B51DD /* main.m */; };
+		2732D44419405AFC007B51DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2732D44319405AFC007B51DD /* AppDelegate.m */; };
+		2732D44719405AFC007B51DD /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2732D44619405AFC007B51DD /* GameScene.m */; };
+		2732D44919405AFC007B51DD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2732D44819405AFC007B51DD /* GameScene.sks */; };
+		2732D44C19405AFC007B51DD /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2732D44B19405AFC007B51DD /* GameViewController.m */; };
+		2732D44F19405AFC007B51DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2732D44D19405AFC007B51DD /* Main.storyboard */; };
+		2732D45119405AFC007B51DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2732D45019405AFC007B51DD /* Images.xcassets */; };
+		2732D45D19405AFC007B51DD /* iOS8_LightingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2732D45C19405AFC007B51DD /* iOS8_LightingTests.m */; };
+		2732D46819406238007B51DD /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2732D46619406238007B51DD /* fire.sks */; };
+		2732D46919406238007B51DD /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2732D46719406238007B51DD /* spark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2732D45719405AFC007B51DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2732D43319405AFC007B51DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2732D43A19405AFC007B51DD;
+			remoteInfo = "iOS8-Lighting";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2732D43B19405AFC007B51DD /* iOS8-Lighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS8-Lighting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2732D43F19405AFC007B51DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2732D44019405AFC007B51DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2732D44219405AFC007B51DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2732D44319405AFC007B51DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2732D44519405AFC007B51DD /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		2732D44619405AFC007B51DD /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		2732D44819405AFC007B51DD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2732D44A19405AFC007B51DD /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		2732D44B19405AFC007B51DD /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		2732D44E19405AFC007B51DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2732D45019405AFC007B51DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2732D45619405AFC007B51DD /* iOS8-LightingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS8-LightingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2732D45B19405AFC007B51DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2732D45C19405AFC007B51DD /* iOS8_LightingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS8_LightingTests.m; sourceTree = "<group>"; };
+		2732D46619406238007B51DD /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fire.sks; sourceTree = "<group>"; };
+		2732D46719406238007B51DD /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2732D43819405AFC007B51DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2732D45319405AFC007B51DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2732D43219405AFC007B51DD = {
+			isa = PBXGroup;
+			children = (
+				2732D43D19405AFC007B51DD /* iOS8-Lighting */,
+				2732D45919405AFC007B51DD /* iOS8-LightingTests */,
+				2732D43C19405AFC007B51DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2732D43C19405AFC007B51DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2732D43B19405AFC007B51DD /* iOS8-Lighting.app */,
+				2732D45619405AFC007B51DD /* iOS8-LightingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2732D43D19405AFC007B51DD /* iOS8-Lighting */ = {
+			isa = PBXGroup;
+			children = (
+				2732D44219405AFC007B51DD /* AppDelegate.h */,
+				2732D44319405AFC007B51DD /* AppDelegate.m */,
+				2732D44519405AFC007B51DD /* GameScene.h */,
+				2732D44619405AFC007B51DD /* GameScene.m */,
+				2732D44819405AFC007B51DD /* GameScene.sks */,
+				2732D44A19405AFC007B51DD /* GameViewController.h */,
+				2732D44B19405AFC007B51DD /* GameViewController.m */,
+				2732D44D19405AFC007B51DD /* Main.storyboard */,
+				2732D45019405AFC007B51DD /* Images.xcassets */,
+				2732D43E19405AFC007B51DD /* Supporting Files */,
+				2732D46619406238007B51DD /* fire.sks */,
+				2732D46719406238007B51DD /* spark.png */,
+			);
+			path = "iOS8-Lighting";
+			sourceTree = "<group>";
+		};
+		2732D43E19405AFC007B51DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2732D43F19405AFC007B51DD /* Info.plist */,
+				2732D44019405AFC007B51DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2732D45919405AFC007B51DD /* iOS8-LightingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2732D45C19405AFC007B51DD /* iOS8_LightingTests.m */,
+				2732D45A19405AFC007B51DD /* Supporting Files */,
+			);
+			path = "iOS8-LightingTests";
+			sourceTree = "<group>";
+		};
+		2732D45A19405AFC007B51DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2732D45B19405AFC007B51DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2732D43A19405AFC007B51DD /* iOS8-Lighting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2732D46019405AFC007B51DD /* Build configuration list for PBXNativeTarget "iOS8-Lighting" */;
+			buildPhases = (
+				2732D43719405AFC007B51DD /* Sources */,
+				2732D43819405AFC007B51DD /* Frameworks */,
+				2732D43919405AFC007B51DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS8-Lighting";
+			productName = "iOS8-Lighting";
+			productReference = 2732D43B19405AFC007B51DD /* iOS8-Lighting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2732D45519405AFC007B51DD /* iOS8-LightingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2732D46319405AFC007B51DD /* Build configuration list for PBXNativeTarget "iOS8-LightingTests" */;
+			buildPhases = (
+				2732D45219405AFC007B51DD /* Sources */,
+				2732D45319405AFC007B51DD /* Frameworks */,
+				2732D45419405AFC007B51DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2732D45819405AFC007B51DD /* PBXTargetDependency */,
+			);
+			name = "iOS8-LightingTests";
+			productName = "iOS8-LightingTests";
+			productReference = 2732D45619405AFC007B51DD /* iOS8-LightingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2732D43319405AFC007B51DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = YMC;
+				TargetAttributes = {
+					2732D43A19405AFC007B51DD = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					2732D45519405AFC007B51DD = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 2732D43A19405AFC007B51DD;
+					};
+				};
+			};
+			buildConfigurationList = 2732D43619405AFC007B51DD /* Build configuration list for PBXProject "iOS8-Lighting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2732D43219405AFC007B51DD;
+			productRefGroup = 2732D43C19405AFC007B51DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2732D43A19405AFC007B51DD /* iOS8-Lighting */,
+				2732D45519405AFC007B51DD /* iOS8-LightingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2732D43919405AFC007B51DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2732D46919406238007B51DD /* spark.png in Resources */,
+				2732D45119405AFC007B51DD /* Images.xcassets in Resources */,
+				2732D46819406238007B51DD /* fire.sks in Resources */,
+				2732D44919405AFC007B51DD /* GameScene.sks in Resources */,
+				2732D44F19405AFC007B51DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2732D45419405AFC007B51DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2732D43719405AFC007B51DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2732D44C19405AFC007B51DD /* GameViewController.m in Sources */,
+				2732D44419405AFC007B51DD /* AppDelegate.m in Sources */,
+				2732D44719405AFC007B51DD /* GameScene.m in Sources */,
+				2732D44119405AFC007B51DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2732D45219405AFC007B51DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2732D45D19405AFC007B51DD /* iOS8_LightingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2732D45819405AFC007B51DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2732D43A19405AFC007B51DD /* iOS8-Lighting */;
+			targetProxy = 2732D45719405AFC007B51DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2732D44D19405AFC007B51DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2732D44E19405AFC007B51DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2732D45E19405AFC007B51DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2732D45F19405AFC007B51DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2732D46119405AFC007B51DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "iOS8-Lighting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2732D46219405AFC007B51DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "iOS8-Lighting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2732D46419405AFC007B51DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS8-Lighting.app/iOS8-Lighting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS8-LightingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		2732D46519405AFC007B51DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS8-Lighting.app/iOS8-Lighting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS8-LightingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2732D43619405AFC007B51DD /* Build configuration list for PBXProject "iOS8-Lighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2732D45E19405AFC007B51DD /* Debug */,
+				2732D45F19405AFC007B51DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2732D46019405AFC007B51DD /* Build configuration list for PBXNativeTarget "iOS8-Lighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2732D46119405AFC007B51DD /* Debug */,
+				2732D46219405AFC007B51DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2732D46319405AFC007B51DD /* Build configuration list for PBXNativeTarget "iOS8-LightingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2732D46419405AFC007B51DD /* Debug */,
+				2732D46519405AFC007B51DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2732D43319405AFC007B51DD /* Project object */;
+}
