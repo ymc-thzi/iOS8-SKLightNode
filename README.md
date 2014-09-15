@@ -7,7 +7,7 @@ Read the full blogpost / tutorial on:
 http://www.ymc.ch/en/playing-with-ios-8-sprite-kit-and-sklightnode
 
 
-![Valid XHTML] (http://www.ymc.ch/wp-content/uploads/2014/06/ios8-normalMapped-and-shadows.png)
+![Valid XHTML] (http://www.ymc.ch/wp-content/uploads/2014/06/ios8-normalMapped-and-shadows1.png)
 
 ## Notices ##
 Keep in mind that this only works with the new version of Xcode 6 that is now available for apple developers as a beta in the apple developers center. Also remember that the new functionalities of Sprite Kit are also very beta and at this level are not claimed to work reliably or performantly.
